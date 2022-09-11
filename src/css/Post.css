@@ -1,0 +1,47 @@
+.post{
+    margin: auto;
+    margin-top: 180px;
+    background-color: white;
+    width: 60%;
+    height: 70vh;
+    border: 2px solid rgb(64, 198, 243);
+    border-radius: 5px;
+    
+}
+
+.post_input{
+    border: none;
+    text-transform: capitalize;
+    font-size: large;
+    color: lightgray;
+    outline: none;
+    font-weight: lighter;
+    padding-left: 10px;
+    width: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.small{
+    width: 20%;
+    background: white;
+}
+
+.btn_post{
+    width: 100px;
+    background-color: rgb(64, 198, 243);
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: white;
+    float: right;
+    margin-right: 20px;
+}
+
+.btn_post:hover{
+    background-color: rgba(64, 198, 243, 0.7);
+}

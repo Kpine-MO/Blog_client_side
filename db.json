@@ -1,0 +1,54 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "The outcome of Prague on visas and a possible training mission for Ukraine",
+      "content": "This was the backdrop for our discussions with EU Defence and Foreign Ministers in Prague on 29-31 August. These were informal meetings, so no decisions were taken. However, we had important debates where we managed to make progress, including on issues were opinions diverge. As I have said before: what matters in the EU is not how a discussion begins – often with different opinions among 27 member states - what matters is how a discussion ends, with a united position, accommodating the differences that naturally exist.",
+      "category": "Politics",
+      "imgUrl": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "user_id": 1,
+      "author": "Uri Geller",
+      "createdOn": "2022-05-21"
+    },
+    {
+      "id": 2,
+      "title": "The outcome of Prague on visas and a possible training mission for Ukraine",
+      "content": "This was the backdrop for our discussions with EU Defence and Foreign Ministers in Prague on 29-31 August. These were informal meetings, so no decisions were taken. However, we had important debates where we managed to make progress, including on issues were opinions diverge. As I have said before: what matters in the EU is not how a discussion begins – often with different opinions among 27 member states - what matters is how a discussion ends, with a united position, accommodating the differences that naturally exist.",
+      "category": "Lifestyle",
+      "imgUrl": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "user_id": 2,
+      "author": "Kpine",
+      "createdOn": "2022-05-21"
+    },
+    {
+      "id": 3,
+      "title": "The outcome of Prague on visas and a possible training mission for Ukraine",
+      "content": "This was the backdrop for our discussions with EU Defence and Foreign Ministers in Prague on 29-31 August. These were informal meetings, so no decisions were taken. However, we had important debates where we managed to make progress, including on issues were opinions diverge. As I have said before: what matters in the EU is not how a discussion begins – often with different opinions among 27 member states - what matters is how a discussion ends, with a united position, accommodating the differences that naturally exist.",
+      "category": "Lifestyle",
+      "imgUrl": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "user_id": 3,
+      "author": "Chris",
+      "createdOn": "2022-05-21"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Chrispine",
+      "last_name": "Ochieng",
+      "user_name": "Kpine"
+    },
+    {
+      "first_name": "ian",
+      "last_name": "omondi",
+      "user_name": "slim",
+      "id": 2
+    },
+    {
+      "first_name": "paul",
+      "last_name": "mutemi",
+      "user_name": "kp",
+      "id": 3
+    }
+  ]
+}

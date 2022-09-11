@@ -1,0 +1,78 @@
+h1{
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-left: 15px;
+}
+
+p{
+    position: absolute;
+    margin-top: -20px;
+    font-size: small;
+    left: 15px;
+}
+
+.nav ul{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.li{
+    font-size: medium;
+    padding-left: 20px;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: lightgrey;
+    height: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.nav{
+    height: 150px;
+    margin: auto;
+    width: 88.8%;
+    border: 1px solid lightgrey;
+    border-bottom: 5px solid rgb(64, 198, 243);
+    position: absolute;
+    left: 65px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+}
+
+.btn{
+    float: right;
+    margin-top: 42px;
+}
+
+.btn_nav{
+    height: 50px;
+    margin: 0 10px;
+    margin-right: 0;
+    border: none;
+    outline: none;
+    width: 70px;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.blue{
+    background-color: rgb(180, 180, 180);
+    transition-duration: 0.5s;
+    color: white;
+}
+
+.grey{
+    background-color: white;
+}
+
+
+a.active{
+    background-color: rgb(64, 198, 243);
+}
