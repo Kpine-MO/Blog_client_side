@@ -12,7 +12,7 @@ function Footer() {
   return (
     <div className='footer'>
        <div className='top'>
-          <FaFacebookSquare style={iconStyles}/> 
+          <FaFacebookSquare style={iconStyles} className='book'/> 
           <FaTwitter style={iconStyles}/> 
           <FaInstagram style={iconStyles}/>
           <FaDribbble style={iconStyles}/>

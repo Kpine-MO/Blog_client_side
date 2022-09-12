@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import '../css/BlogCell.css'
 
 function BlogCell({title,id, content, category, createdOn, author, onDeletePost,blog, image}) {
@@ -9,6 +10,10 @@ function BlogCell({title,id, content, category, createdOn, author, onDeletePost,
       })
       .then((res) => res.json())
       .then(() => onDeletePost(blog))
+}
+
+function edit() {
+  console.log(id)
 }
 
   return (
@@ -30,6 +35,7 @@ function BlogCell({title,id, content, category, createdOn, author, onDeletePost,
             </span>
             <button className='btn_left'>EDIT</button>
             <button className='btn_right' onClick={deletePost}>DELETE</button>
+            <hr/>
        </div>
     </div>
   )

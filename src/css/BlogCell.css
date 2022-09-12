@@ -78,4 +78,19 @@ p{
     margin-right: 5px;
 }
 
+.edit_title{
+    width: 700px;
+    border: none;
+}
 
+.edit-post{
+    width: 60%;
+    position: absolute;
+    background-color: white;
+}
+
+.edit{
+    margin-left: 100px;
+    border: none;
+    outline: none;
+}

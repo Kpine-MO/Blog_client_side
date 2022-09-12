@@ -13,6 +13,10 @@
     margin-top: 150px;
 }
 
+.home_left .btn_left, .home_left .btn_right{
+    display: none;
+}
+
 h4{
    padding: 10px;
    background-color: rgb(231, 231, 231);
@@ -23,7 +27,7 @@ h4{
 
 .search{
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(64, 198, 243);
     height: 100vh;
     margin-top: 40px;
     margin-left: 20px;
@@ -34,6 +38,8 @@ h4{
     margin-left: 0;
     padding-left: 0;
 }
+
+
 
 .homeLi{
     list-style: none;
@@ -48,7 +54,7 @@ h4{
 input{
     width: 185px;
     height: 30px;
-    border: 1px solid lightgrey;
+    border: 2px solid rgb(64, 198, 243);
     margin: 20px 5px;
     outline: none;
 }
@@ -60,4 +66,32 @@ input{
     margin-left: -6px;
 }
 
+.advert{
+    height: 500px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-image: url(../images/advert1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: advert;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.no_advert{
+    height: 480px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: gray;
+}
+
+@keyframes advert {
+    0%   {background-image: url(../images/advert1.jpeg);}
+    25%  {background-image: url(../images/advert3.jpeg);}
+    50%  {background-image: url(../images/advert4.jpeg);}
+    100% {background-image: url(../images/advert1.jpeg);}
+  }
 

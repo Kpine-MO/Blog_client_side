@@ -13,13 +13,13 @@ function App({onPost}) {
   return (
     <div className="App">
        <Nav/>
-       {/* <Routes>
+       <Routes>
          <Route exact path='/' element={<Home/>}/>
          <Route exact path='/my_account' element={<MyBlogs/>}/>
          <Route exact path='/post' element={<PostArticle onPost={onPost}/>}/>
          <Route exact path='/sign_up' element={<SignUp/>}/>
          <Route exact path='/login' element={<Login/>}/>
-       </Routes> */}
+       </Routes>
 
        <Footer/>
     </div>
