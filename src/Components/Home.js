@@ -1,16 +1,19 @@
 import React,{useEffect, useState} from 'react'
 import BlogCell from './BlogCell'
 import Category from './Category'
-import Comments from './Comments'
+import Comments from './useQuery'
+import useQuery from './useQuery'
 import PostArticle from './PostArticle'
 import '../css/Home.css'
 
 function Home() {
 
-    const[allBlogs, setAllBlogs] = useState([])
+    // const[allBlogs, setAllBlogs] = useState([])
     const[searchQuery, setSearchQuery] = useState("")
     const [selectedCategory, setSelectedCategory] = useState("All");
     const[show, setShow] = useState(true)
+     
+    const{ data: allBlogs} = useQuery("http://localhost:9292/blogs")
 
     function handleAdvert(){
       setShow((show) => !show)
@@ -21,11 +24,11 @@ function Home() {
       }
     
 
-    useEffect(() => {
-        fetch("http://localhost:9292/blogs")
-        .then((res) => res.json())
-        .then((data) => setAllBlogs(data))
-      },[])
+    // useEffect(() => {
+    //     fetch("http://localhost:9292/blogs")
+    //     .then((res) => res.json())
+    //     .then((data) => setAllBlogs(data))
+    //   },[])
 
   return (
     <div className='home'>

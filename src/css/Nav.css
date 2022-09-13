@@ -30,18 +30,26 @@ h1{
     height: 30px;
     padding-top: 10px;
     padding-right: 10px;
+    transition: 0.5s;
+}
+
+.li:hover, .btn_nav:hover{
+    background-color: rgb(64, 198, 243);
 }
 
 .nav{
-    height: 150px;
     margin: auto;
     width: 88.8%;
-    border: 1px solid lightgrey;
-    border-bottom: 5px solid rgb(64, 198, 243);
     position: absolute;
     left: 65px;
+    
+}
+
+.inner_nav{
+    height: 150px;
     background-color: antiquewhite;
-    margin-top: 10px;
+    border: 1px solid lightgrey;
+    border-bottom: 5px solid rgb(64, 198, 243);
 }
 
 .btn{
@@ -53,13 +61,14 @@ h1{
     height: 50px;
     margin: 0 10px;
     margin-right: 0;
-    border: none;
+    border: 1px solid rgb(64, 198, 243);
     outline: none;
     width: 70px;
     cursor: pointer;
     padding: 10px;
     text-decoration: none;
     color: black;
+    transition: 0.5s;
 }
 
 .blue{

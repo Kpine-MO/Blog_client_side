@@ -35,7 +35,6 @@ function edit() {
             </span>
             <button className='btn_left'>EDIT</button>
             <button className='btn_right' onClick={deletePost}>DELETE</button>
-            <hr/>
        </div>
     </div>
   )

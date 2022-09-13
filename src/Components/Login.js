@@ -34,10 +34,10 @@ function Login() {
 
   return (
     <div className='login_form'>
-        <form onSubmit={handleSubmit}>
-            <input className='login_input' type="email" placeholder='email' value={email} onChange={(e) => setEmail(e.target.value)}/>
+        <form onSubmit={handleSubmit} >
+            <input className='login_input' type="email" required placeholder='email' value={email} onChange={(e) => setEmail(e.target.value)}/>
             <br/>
-            <input className='login_input' type="password" placeholder='password' value={password} onChange={(e) => setPassword(e.target.value)}/>
+            <input className='login_input' type="password" required placeholder='password' value={password} onChange={(e) => setPassword(e.target.value)}/>
             <br/>
             <button className='btn_login' type='submit'>Login</button>
         </form>

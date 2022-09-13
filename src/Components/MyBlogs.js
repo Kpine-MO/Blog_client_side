@@ -2,20 +2,23 @@ import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
 import "../css/MyBlogs.css"
 import BlogCell from './BlogCell'
+import useQuery from './useQuery'
 
 function MyBlogs() {
 
-    const[myBlogs, setMyBlogs] = useState([])
+    // const[myBlogs, setMyBlogs] = useState([])
 
-    useEffect(() => {
-        fetch("http://localhost:9292/blogs")
-        .then((res) => res.json())
-        .then((data) => setMyBlogs(data))
-      },[])
+    // useEffect(() => {
+    //     fetch("http://localhost:9292/blogs")
+    //     .then((res) => res.json())
+    //     .then((data) => setMyBlogs(data))
+    //   },[])
+
+    const{ data: myBlogs} = useQuery("http://localhost:9292/blogs")
 
       function handleDeletePost(deletedPost){
         const updatedPosts = myBlogs.filter((blog) => blog.id !== deletedPost.id);
-        setMyBlogs(updatedPosts);
+        myBlogs(updatedPosts);
       }
 
   return (
