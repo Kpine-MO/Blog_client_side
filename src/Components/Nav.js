@@ -1,3 +1,6 @@
+// This file holds the component that is commont through out the UI
+// It has NavLink that enbles the user to move in and out of components at will
+
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../css/Nav.css";

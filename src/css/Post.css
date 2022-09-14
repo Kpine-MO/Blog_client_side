@@ -1,4 +1,4 @@
-.post{
+.post {
     margin: auto;
     margin-top: 180px;
     background-color: white;
@@ -6,10 +6,10 @@
     height: 70vh;
     border: 2px solid rgb(64, 198, 243);
     border-radius: 5px;
-    
+
 }
 
-.post_input{
+.post_input {
     border: none;
     text-transform: capitalize;
     font-size: large;
@@ -21,12 +21,12 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.small{
+.small {
     width: 20%;
     background: white;
 }
 
-.btn_post{
+.btn_post {
     width: 100px;
     background-color: rgb(64, 198, 243);
     height: 40px;
@@ -42,6 +42,6 @@
     margin-right: 20px;
 }
 
-.btn_post:hover{
+.btn_post:hover {
     background-color: rgba(64, 198, 243, 0.7);
 }

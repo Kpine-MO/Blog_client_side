@@ -1,42 +1,48 @@
-.footer{
+.footer {
     width: 90.1%;
     background-color: rgba(0, 0, 0, 0.9);
     margin: auto;
     height: 190px;
     margin-top: 30px;
 }
-.top{
+
+.top {
     text-align: center;
     padding-top: 50px;
 }
 
-.book{
+.book {
     transition-duration: 0.5s;
     color: skyblue;
 }
 
-.book:hover{
-   color: skyblue;
+.book:hover {
+    color: skyblue;
 }
 
-.subConLeft, .container, .subConCentre, .subConRight{
+.subConLeft,
+.container,
+.subConCentre,
+.subConRight {
     display: flex;
     justify-content: space-between;
     color: rgb(151, 151, 151);
 }
-.container{
+
+.container {
     padding-top: 30px;
     width: 90%;
     margin: auto;
 }
-h2{
+
+h2 {
     width: 90px;
     font: 1em sans-serif;
     font-weight: lighter;
     text-transform: uppercase;
 }
 
-.btn_advert{
+.btn_advert {
     float: right;
     border: none;
 }

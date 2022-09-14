@@ -1,6 +1,17 @@
-.myBlog{
-    width: 89.5%;;
+.myBlog {
+    width: 89.5%;
     margin: auto;
     margin-top: 200px;
     border: 1px solid gray;
+}
+
+.post_link {
+    text-decoration: none;
+    border: 1px solid rgb(64, 198, 243);
+    margin-left: 20px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(64, 198, 243);
+    border-radius: 5px;
+    text-transform: capitalize;
 }

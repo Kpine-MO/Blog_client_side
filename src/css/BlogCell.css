@@ -6,92 +6,93 @@ img{
     margin-top: 35px;
 } */
 
-
-
-h3{
-    font-size: xx-large;
-    text-transform: capitalize;
-    font-weight: 400;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h3 {
+	font-size: xx-large;
+	text-transform: capitalize;
+	font-weight: 400;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-h5{
-    text-transform: capitalize;
-    font-weight: bold;
+h5 {
+	text-transform: capitalize;
+	font-weight: bold;
 }
 
-h6{
-    font-size: large;
-    font-weight: 400;
-    color: rgb(48, 48, 48);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+h6 {
+	font-size: large;
+	font-weight: 400;
+	color: rgb(48, 48, 48);
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: xx-large;
+}
+.update {
+	position: absolute;
 }
 
-.cell{
-    margin-bottom: 60px;
-    width: 80%;
-    overflow: auto;
-    padding-left: 15px;
+.cell {
+	margin-bottom: 60px;
+	width: 80%;
+	overflow: auto;
+	padding-left: 15px;
 }
 
-.date{
-    color: rgb(85, 85, 85);
+.date {
+	color: rgb(85, 85, 85);
 }
 
-.category{
-    font-weight: lighter;
+.category {
+	font-weight: lighter;
 }
 
-.btn_right{
-    background-color: rgb(151, 151, 151);
-    float: right;
-    height: 30px;
-    border: none;
-    outline: none;
-    width: 70px;
-    cursor: pointer;
+.btn_right {
+	background-color: rgb(151, 151, 151);
+	float: right;
+	height: 30px;
+	border: none;
+	outline: none;
+	width: 70px;
+	cursor: pointer;
 }
 
-.btn_left{
-    background-color: rgb(64, 198, 243);
-    height: 30px;
-    border: none;
-    outline: none;
-    width: 70px;
-    color: white;
-    cursor: pointer;
+.btn_left {
+	background-color: rgb(64, 198, 243);
+	height: 30px;
+	border: none;
+	outline: none;
+	width: 70px;
+	color: white;
+	cursor: pointer;
 }
 
-.span{
-    display: flex;
+.span {
+	display: flex;
 }
 
-.image{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-top: 15px;
-    margin-right: 5px;
+.image {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-top: 15px;
+	margin-right: 5px;
 }
 
-.edit_title{
-    width: 700px;
-    border: none;
+.edit_title {
+	width: 700px;
+	border: none;
 }
 
-.edit-post{
-    width: 60%;
-    position: absolute;
-    background-color: white;
+.edit-post {
+	width: 60%;
+	position: absolute;
+	background-color: white;
 }
 
-.edit{
-    margin-left: 100px;
-    border: none;
-    outline: none;
+.edit {
+	margin-left: 100px;
+	border: none;
+	outline: none;
 }
