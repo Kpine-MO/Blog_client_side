@@ -26,15 +26,22 @@ h1 {
     color: rgb(105, 105, 105);
     cursor: pointer;
     margin-top: 10px;
-    background-color: lightgrey;
+    background-color: rgb(180, 180, 180);
     height: 30px;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
     padding-top: 10px;
     padding-right: 10px;
     transition: 0.5s;
+    margin-left: 0.3px;
 }
 
-.li:hover,
+
 .btn_nav:hover {
+    background-color: rgb(64, 198, 243);
+    border: 1px solid rgb(64, 198, 243);
+}
+.li:hover{
     background-color: rgb(64, 198, 243);
 }
 
@@ -44,14 +51,15 @@ h1 {
     position: absolute;
     left: 65px;
     padding-top: 20px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 .inner_nav {
     height: 150px;
-    background-color: antiquewhite;
-    border: 1px solid lightgrey;
-    border-bottom: 5px solid rgb(64, 198, 243);
+    background-color: white;
+    border: 2px solid rgb(180, 180, 180);
+    border-bottom: 5px solid rgb(180, 180, 180);
+    border-radius: 15px;
 }
 
 .btn {
@@ -60,12 +68,12 @@ h1 {
 }
 
 .btn_nav {
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 12px;
     height: 50px;
     margin: 0 10px;
-    margin-right: 0;
-    border: 1px solid rgb(64, 198, 243);
+    margin-right: 0.4px;
     outline: none;
-    width: 70px;
     cursor: pointer;
     padding: 10px;
     text-decoration: none;
@@ -77,10 +85,11 @@ h1 {
     background-color: rgb(180, 180, 180);
     transition-duration: 0.5s;
     color: white;
+    border: 1px solid rgb(180, 180, 180);
 }
 
 .grey {
-    background-color: white;
+   border: 1px solid rgb(180, 180, 180);
 }
 
 

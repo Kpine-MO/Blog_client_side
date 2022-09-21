@@ -3,6 +3,7 @@
 //button in this component that will initiat the delete action
 
 import React, { useState } from "react";
+import Update from "./Update";
 import { Link } from "react-router-dom";
 import "../css/BlogCell.css";
 
@@ -15,19 +16,16 @@ function BlogCell({
 	author,
 	onDeletePost,
 	blog,
+	setMyBlogs,
+	allBlogs,
 	image,
 }) {
-
 	function deletePost() {
 		fetch(`http://localhost:9292/blogs/${id}`, {
 			method: "DELETE",
 		})
 			.then((res) => res.json())
 			.then(() => onDeletePost(blog));
-	}
-
-	function edit() {
-		console.log(id);
 	}
 
 	return (
@@ -48,7 +46,12 @@ function BlogCell({
 						<i>category :</i> {category}
 					</h5>
 				</span>
-				<button className="btn_left">EDIT</button>
+				<Update
+					id={id}
+					content={content}
+					allBlogs={allBlogs}
+					setMyBlogs={setMyBlogs}
+				/>
 				<button className="btn_right" onClick={deletePost}>
 					DELETE
 				</button>

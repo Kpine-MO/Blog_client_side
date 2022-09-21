@@ -55,6 +55,7 @@ p {
 	border: none;
 	outline: none;
 	width: 70px;
+	margin-top: -25px;
 	cursor: pointer;
 }
 
@@ -95,4 +96,10 @@ p {
 	margin-left: 100px;
 	border: none;
 	outline: none;
+}
+
+.blogCell{
+	border: 1px solid gray;
+	margin: 20px 0;
+	border-radius: 15px;
 }

@@ -56,7 +56,7 @@ As a user of this programm you will be able to :
 ## Back End Github Link
  -Click this link to view the github link
 
-https://github.com/Kpine-MO/Blog_client_side/blob/main/src/Components/PostArticle.js
+https://github.com/Kpine-MO/ruby_back_end
 
  [Go Back to the top](#blog-application)
 

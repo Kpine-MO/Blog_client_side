@@ -9,11 +9,11 @@ import BlogCell from "./BlogCell";
 import useQuery from "./useQuery";
 
 function MyBlogs() {
-	const { data: myBlogs } = useQuery("http://localhost:9292/blogs");
+	const { data: myBlogs, setData: setMyBlogs} = useQuery("http://localhost:9292/blogs");
 
 	function handleDeletePost(deletedPost) {
 		const updatedPosts = myBlogs.filter((blog) => blog.id !== deletedPost.id);
-		myBlogs(updatedPosts);
+		setMyBlogs(updatedPosts);
 	}
 
 	return (
@@ -35,6 +35,7 @@ function MyBlogs() {
 						author={blog.author}
 						blog={blog}
 						allBlogs={myBlogs}
+                        setMyBlogs={setMyBlogs}
 						onDeletePost={handleDeletePost}
 					/>
 				);

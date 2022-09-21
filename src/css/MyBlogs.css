@@ -1,8 +1,8 @@
 .myBlog {
-    width: 89.5%;
+    width: 60%;
     margin: auto;
     margin-top: 200px;
-    border: 1px solid gray;
+    margin-left: 65px;
 }
 
 .post_link {

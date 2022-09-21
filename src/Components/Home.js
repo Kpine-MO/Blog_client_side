@@ -15,7 +15,7 @@ function Home() {
 	const [selectedCategory, setSelectedCategory] = useState("All");
 	const [show, setShow] = useState(true);
 
-	const { data: allBlogs } = useQuery("http://localhost:9292/blogs");
+	const { data: allBlogs, setData: setAllBlogs } = useQuery("http://localhost:9292/blogs");
 
 	function handleAdvert() {
 		setShow((show) => !show);
@@ -23,6 +23,11 @@ function Home() {
 
 	function handleCategoryChange(event) {
 		setSelectedCategory(event.target.value);
+	}
+
+	function handleDeletePost(deletedPost) {
+		const updatedPosts = allBlogs.filter((blog) => blog.id !== deletedPost.id);
+		setAllBlogs(updatedPosts);
 	}
 
 	return (
@@ -41,13 +46,18 @@ function Home() {
 					.map((blog, i) => {
 						return (
 							<BlogCell
-								key={i}
-								title={blog.title}
-								content={blog.content}
-								category={blog.category}
-								image={blog.imgUrl}
-								createdOn={blog.createdOn}
-								author={blog.author}
+							key={i}
+							id={blog.id}
+							title={blog.title}
+							content={blog.content}
+							category={blog.category}
+							image={blog.imgUrl}
+							createdOn={blog.createdOn}
+							author={blog.author}
+							blog={blog}
+							allBlogs={allBlogs}
+							setMyBlogs={setAllBlogs}
+							onDeletePost={handleDeletePost}
 							/>
 						);
 					})}

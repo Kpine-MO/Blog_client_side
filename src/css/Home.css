@@ -3,7 +3,6 @@
     display: block;
     width: 67%;
     margin-left: 65px;
-    border: 1px solid lightgrey;
     margin-top: 40px;
     overflow: auto;
 }
@@ -15,10 +14,10 @@
 
 }
 
-.home_left .btn_left,
+/* .home_left .btn_left,
 .home_left .btn_right {
     display: none;
-}
+} */
 
 h4 {
     padding: 10px;
@@ -30,10 +29,11 @@ h4 {
 
 .search {
     width: 100%;
-    border: 1px solid rgb(64, 198, 243);
+    border: 1px solid gray;
     height: 100vh;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 20px;
+    border-radius: 12px;
 }
 
 .homeUl {
@@ -57,15 +57,19 @@ h4 {
 input {
     width: 185px;
     height: 30px;
-    border: 2px solid rgb(64, 198, 243);
+    border: 1px solid gray;
     margin: 20px 5px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
     outline: none;
 }
 
 .btn_home {
-    height: 36px;
+    height: 35px;
     background-color: rgb(64, 198, 243);
     border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
     margin-left: -6px;
 }
 
